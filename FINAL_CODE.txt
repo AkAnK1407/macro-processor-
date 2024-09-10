@@ -1,0 +1,17 @@
+START
+L 1,X
+ST 1,Y
+LINE 1
+M 1,D5
+N 2,D4
+L 1,P
+A 3,R
+ST 3,P
+L 1,K
+L 2,T
+ST 2,S
+L 1,X
+A 3,Y
+ST 3,Z
+ST 1,K
+END

@@ -1,0 +1,9 @@
+1 FUN &M,&N,&A
+2 L 1,#0
+3 A 3,#1
+4 ST 3,#2
+5 MEND
+6 HELLO &E,&F
+7 L 2,#1
+8 ST 2,#0
+9 MEND
