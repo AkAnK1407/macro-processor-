@@ -31,6 +31,7 @@ Index	Argument
 Note: MDT index contains the starting index of the MACRO in MDT.
 
 Pass 1 (Definition of MACROS)
+
 Pass1 of macro processor makes a line-by-line scanover it's input.
 Set MDTC = 1 and MNTC = 1.
 Read next line of input program.
@@ -38,6 +39,7 @@ If it is a MACRO pseudo-op, the entire macro definition except MACRO line is sto
 The name is entered in the MNT along with a pointer to the 1st location of MDT entry.
 When the END pseudo-op is encountered all the macro-definitions have been processed, so control is transferred to pass2.
 Pass 2 (Replacing MACRO calls by its definition)
+
 This algorithm reads one line of i/p program at a time.
 For each line it checks if op-code of that line matches any of the MNT entry.
 The initial value of MDTP is obtained from MDT index field of MNT entry.
